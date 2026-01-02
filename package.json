@@ -1,13 +1,23 @@
 {
-  "name": "core",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+	"name": "@nh-kino/core",
+	"version": "1.0.0",
+	"description": "Основные корневые утилиты для проекта",
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"license": "ISC",
+	"author": {
+		"name": "NH - Котой Владимир Дмитриевич",
+		"email": "nevedomyj4@gmail.com"
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"dependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2"
+	},
+	"exports": {
+		"./prettier": "./src/prettier.config.mjs"
+	}
 }
