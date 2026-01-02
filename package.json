@@ -1,6 +1,6 @@
 {
 	"name": "@nh-kino/core",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Основные корневые утилиты для проекта",
 	"type": "module",
 	"publishConfig": {
